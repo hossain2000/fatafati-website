@@ -1,0 +1,93 @@
+@font-face{
+    font-family: hindibold;
+    src : url{fonts/hindibold.ttf};
+    font-family: hindilight;
+    src : url{fonts/hindilight.ttf}
+}
+/* font-family: 'Hind Siliguri', sans-serif; */
+body{
+   margin: 0px;
+   padding: 0px;
+}
+img{max-width: 100%;}
+a{text-decoration: none;}
+.header-left {
+    width: 500px;
+    float: left;
+}
+.header{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+}
+.container{width: 1170px;margin: auto;display: table;}
+.hd-logo {
+    width: 277px;
+    margin-top: -4px;
+    display: block;
+    font-family: sans-serif;
+    color:#4286f5;
+  
+}
+.hd-ul{
+    float: right;
+    margin-top: 8px;
+    font-family: arial;
+}
+.hd-ul li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+.hd-ul li a{
+    text-align: center;
+    color:#4286f5;
+    letter-spacing: 1px;
+}
+.st-left{
+    width: 588px;
+    float: left;
+}
+.st-left h1{
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.st-left h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: rgb(90, 89, 89);
+    margin-top: -20px;
+}
+.st-left p{
+    font-family: 'Poppins', sans-serif;
+    color: darkgray;
+    line-height: 27px;
+}
+.st-right{
+    float: right;
+    width: 466px;
+}
+.st-left a{
+    display: block;
+    margin-top: 30px;
+    background-image: linear-gradient(140deg, #4286f5, #74a5f5);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-family: arial;
+    width: 86px;
+}
+.st-left a:hover{
+    
+    transition: 0.9s;
+}
+.section-top{
+    background-image: url(images/bgst.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+   
+}
+.half-width{
+    margin-top: 100px;
+}
