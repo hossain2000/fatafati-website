@@ -9,6 +9,9 @@ body{
    margin: 0px;
    padding: 0px;
 }
+section{
+    padding: 80px;
+}
 img{max-width: 100%;}
 a{text-decoration: none;}
 .header-left {
@@ -108,6 +111,7 @@ a{text-decoration: none;}
 secttion.st2 {
     display: block;
     margin: auto;
+    margin-bottom: 75px;
 }
 
 .pupolar-app {
@@ -123,4 +127,10 @@ secttion.st2 {
     font-size: 21px;
     font-family: 'Poppins';
     text-align: center;
+}
+.th3{
+    background-color: rgba(191, 191, 191, 0.119);
+    height: 70vh;
+    width: 100%;
+    display: table;
 }
